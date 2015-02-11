@@ -12,5 +12,6 @@ Araçlarınızın çeşitli mesafelerde ne kadar yakıt tüketeceğini  bilmek i
     *Sqlite "Kullanıcıların Konum ve gerekli hesaplama bilgilerini kaydetmek için "                                            
     *Google Map "Kullanıcıların Seçtikleri konumları belirleme ve Bulundukları konumları takip etmek için"                      
     *RestFull Client  "Google Map'in sunmuş olduğu RestFull Servisten veri cekebilmek için kullanılmiştır"                      
-    *Android AsyncTask  "Program çalıştığı süreçte arka planda Server ve Client iletişimini sağlamak ve Google Map'te gerekli
-    görünüm işlemlerini yapılabilmesi için kullanılmıştır. " 
+    *Android AsyncTask  "Program çalıştığı süreçte arka planda Server ve Client iletişimini sağlamak ve 
+    Google Map'te gerekli görünüm işlemlerini yapılabilmesi için kullanılmıştır. " 
+https://play.google.com/store/apps/details?id=com.ok.map

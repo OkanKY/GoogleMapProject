@@ -14,4 +14,6 @@ Araçlarınızın çeşitli mesafelerde ne kadar yakıt tüketeceğini  bilmek i
     *RestFull Client  "Google Map'in sunmuş olduğu RestFull Servisten veri cekebilmek için kullanılmiştır"                      
     *Android AsyncTask  "Program çalıştığı süreçte arka planda Server ve Client iletişimini sağlamak ve 
     Google Map'te gerekli görünüm işlemlerini yapılabilmesi için kullanılmıştır. " 
-https://play.google.com/store/apps/details?id=com.ok.map
+
+ Uygulamamın Google Play Storedeki yayınlanma adresi https://play.google.com/store/apps/details?id=com.ok.map
+ Yukarıdaki adrese girerek gerekli bilgilere erişebilirsiniz

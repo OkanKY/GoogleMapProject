@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#000000">
+  <RelativeLayout
+      android:id="@+id/tapView_Signin"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/hesapla"
+                android:layout_width="143dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/hesapla"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/geri"
+                android:layout_width="143dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/geri"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+    
+ </RelativeLayout>
+
+  <fragment
+      android:id="@+id/map"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/tapView_Signin"
+      class="com.google.android.gms.maps.SupportMapFragment" />
+
+</RelativeLayout>

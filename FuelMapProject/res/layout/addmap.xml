@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrnd"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/font"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Kayıt Ismini Giriniz"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/font"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Km Başına Yakıt Tüketimi(Kuruş) "
+        android:imeOptions="actionDone"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/tapView"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/hesaplabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="@drawable/hesapla"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/tapView2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/font"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/font"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/font"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  <LinearLayout
+        android:id="@+id/tapView3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:orientation="vertical" />
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="31dp"
+        android:layout_weight="0.06"
+        android:orientation="vertical" >
+  
+        <Button
+            android:id="@+id/kaydetbtn"
+            android:layout_width="143dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/kaydet"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/geribtn"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/geri"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
